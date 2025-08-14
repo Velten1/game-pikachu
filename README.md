@@ -1,4 +1,4 @@
-# Game Extension – Runner do Pikachu (HTML/CSS/JS)
+# Game Pikachu – Runner do Pikachu (HTML/CSS/JS)
 
 Um mini jogo estilo runner feito com HTML, CSS e JavaScript puro. Desvie dos obstáculos, acumule pontos e use o botão Restart para recomeçar a qualquer momento.
 

@@ -75,12 +75,20 @@ game-extension/
 - **Nada se mexe**: certifique-se de abrir o `game-extension.html` (não abra somente o CSS/JS).
 - **Pulo não dispara**: o `keydown` é global; cheque se a janela está focada.
 
+## Observações
+
+Este é um projeto individual desenvolvido com o objetivo de estudar e aprimorar conhecimentos em programação.
+O código ainda pode conter bugs e pontos a melhorar, deixo á seu critério caso quiser melhorar, aplicar atualizações, e o que der vontade.
+Não tenho intenções de implementar novas funcionalidades.
+
 ## 🤝 Contribuição
 
 Sinta-se à vontade para abrir issues e enviar PRs com melhorias de gameplay, sprites, organização de código ou novas mecânicas.
 
 ## 📄 Licença
 
-Defina a licença que preferir neste projeto (ex.: MIT). Se optar por MIT, crie um arquivo `LICENSE` com o texto correspondente.
+Este projeto está disponível sob a MIT License. Sinta-se livre para usar, estudar, modificar e distribuir, desde que mantenha os devidos créditos.
+
+Obrigado por conferir! Qualquer dúvida ou sugestão, fique à vontade para abrir uma issue ou enviar um pull request. Bons estudos e boa codificação!
 
 

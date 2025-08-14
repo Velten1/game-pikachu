@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(62, 153, 62);
+}
+
+.game-board{
+    width: 100%;
+    height: 500px;
+    border-bottom: 15px solid rgb(62, 153, 62) ;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgb(82, 82, 82), rgb(255, 255, 255));
+}
+
+#restart{
+    position: relative;
+    color: black;
+    border-radius: 6px;
+    padding: 10px; 
+    font-size: 20px;
+    margin-top: 20px;
+    left: 46%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+
+}
+
+section {
+    position: fixed;
+    top: 3%;
+    left: 44%;
+    width: 8%;
+    height: 1px; /* Ajuste conforme necessário */
+    background-image: url(button.png);
+    background-size: cover; /* Ajusta o tamanho do background para cobrir */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    border-radius: 6px;
+    padding: 79px; /* Espaçamento dentro do elemento */
+    padding-bottom: 90px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; /* Alinha o texto horizontalmente no centro */
+    display: flex; /* Usando flexbox para alinhar verticalmente */
+    justify-content: center; /* Alinha o conteúdo horizontalmente no centro */
+    align-items: center; /* Alinha o conteúdo verticalmente no centro */
+}
+
+.pikachu{
+    position: absolute;
+    bottom: 0px;
+    width: 120px;
+    
+}
+
+.jump{
+    animation: jump 500ms ease-out;
+
+}
+
+.clouds{
+    position: absolute;
+    width: 450px;
+    bottom: 180px;
+    animation: clouds 10000ms infinite linear;
+
+}
+
+.pokeball{
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+   animation: pokeball-animation 1.5s infinite linear;
+   z-index: 2;
+    
+}
+
+.pokeball1 {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    animation: pokeball-animation1 1.25s infinite linear;
+    z-index: 2;
+}
+
+.pokeball2 {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    animation: pokeball-animation2 1.0s infinite linear;
+    z-index: 2;
+}
+
+.pokeball3 {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    animation: pokeball-animation3 0.75s infinite linear;
+    z-index: 2;
+}
+
+.pokeball4 {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    animation: pokeball-animation4 0.60s infinite linear;
+    z-index: 2;
+}
+
+.pokeball5 {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    animation: pokeball-animation5 0.50s infinite linear;
+    z-index: 2;
+}
+
+
+.charizard{
+    position: absolute;
+    bottom: 110px;
+    width: 120px;
+    transform: translateX(-20%);
+    z-index: 1;
+    animation: charizard-animation 4.5s infinite linear;
+    
+}
+
+.charizard1{
+    position: absolute;
+    bottom: 110px;
+    width: 120px;
+    transform: translateX(-20%);
+    z-index: 1;
+    animation: charizard-animation1 4.25s infinite linear;
+}
+
+.charizard2{
+    position: absolute;
+    bottom: 110px;
+    width: 120px;
+    transform: translateX(-20%);
+    z-index: 1;
+    animation: charizard-animation2 4.0s infinite linear;
+}
+
+.charizard3{
+    position: absolute;
+    bottom: 110px;
+    width: 120px;
+    transform: translateX(-20%);
+    z-index: 1;
+    animation: charizard-animation3 3.75s infinite linear;
+}
+
+.charizard4{
+    position: absolute;
+    bottom: 110px;
+    width: 120px;
+    transform: translateX(-20%);
+    z-index: 1;
+    animation: charizard-animation4 3.6s infinite linear;
+}
+
+.charizard5{
+    position: absolute;
+    bottom: 110px;
+    width: 120px;
+    transform: translateX(-20%);
+    z-index: 1;
+    animation: charizard-animation5 3.5s infinite linear;
+}
+
+
+@keyframes pokeball-animation{
+
+    from{ 
+        right: -80px;
+
+    }
+
+
+    to{
+        right: 100%;
+
+    }
+
+}
+
+@keyframes pokeball-animation1{
+
+    from{ 
+        right: -80px;
+
+    }
+
+
+    to{
+        right: 100%;
+
+    }
+
+}
+ 
+@keyframes pokeball-animation2{
+
+    from{ 
+        right: -80px;
+
+    }
+
+
+    to{
+        right: 100%;
+
+    }
+
+}
+
+@keyframes pokeball-animation3{
+
+    from{ 
+        right: -80px;
+
+    }
+
+
+    to{
+        right: 100%;
+
+    }
+
+}
+
+@keyframes pokeball-animation4{
+
+    from{ 
+        right: -80px;
+
+    }
+
+
+    to{
+        right: 100%;
+
+    }
+
+}
+ 
+@keyframes pokeball-animation5{
+
+    from{ 
+        right: -80px;
+
+    }
+
+
+    to{
+        right: 100%;
+
+    }
+
+}
+
+@keyframes charizard-animation{
+    from{
+        right: -120px;
+       
+    }
+    to{
+        right: 100%;
+        
+    }
+}
+
+@keyframes charizard-animation1{
+    from{
+        right: -120px;
+       
+    }
+    to{
+        right: 100%;
+        
+    }
+}
+
+@keyframes charizard-animation2{
+    from{
+        right: -120px;
+       
+    }
+    to{
+        right: 100%;
+        
+    }
+}
+
+@keyframes charizard-animation3{
+    from{
+        right: -120px;
+       
+    }
+    to{
+        right: 100%;
+        
+    }
+}
+
+@keyframes charizard-animation4{
+    from{
+        right: -120px;
+       
+    }
+    to{
+        right: 100%;
+        
+    }
+}
+
+@keyframes charizard-animation5{
+    from{
+        right: -120px;
+       
+    }
+    to{
+        right: 100%;
+        
+    }
+}
+
+
+@keyframes clouds{
+    from{
+        right: -500px;
+    }
+
+    to{
+        right: 100%;
+
+    }
+}
+
+@keyframes jump {
+    
+    0%{     
+        bottom: 0;
+     }
+
+
+     40%{
+        bottom: 110px;
+     }
+
+     50%{
+        bottom: 110px;
+     }
+
+     60%{
+        bottom: 110px;
+     }
+
+     100%{  
+        bottom: 0px;
+     }
+
+
+}
+
